@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><link rel="stylesheet" href="normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DevJane Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- <style>
+            a:link {
+              color: green;
+              background-color: transparent;
+              text-decoration: none;
+            }
+            a:visited {
+              color: pink;
+              background-color: transparent;
+              text-decoration: none;
+            }
+            a:hover {
+              color: red;
+              background-color: transparent;
+              text-decoration: underline;
+            }
+            a:active {
+              color: yellow;
+              background-color: transparent;
+              text-decoration: underline;
+            }
+            </style> -->
+
+
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <!-- <img src="img/devjane.png" alt=""> -->
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Varun Sridharan</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Computer Science Graduate</p>
+            <img src="img/PassportSizePhoto.jpg" alt="a picture of me smiling" class="intro__img">
+        </section>
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about">CS Graduate | ML Research | Seeking full-time opportunities | Arizona State University </p>
+            
+            <div class="about-me__body">
+                <p>I had recently graduated with a Master's Degree in Computer Science and I'm actively looking for full-time opportunities in Software Engineering and Data Science. Please click here for my <a href="https://drive.google.com/file/d/1qmQZVQG5ju3TgZPQgHiEpl6TNAbAP-RJ/view?usp=sharing" class="btn">Unofficial Transcript</a></p>
+                <p>My experience, through my research projects and internships, in the field of Machine Learning (ML) and Computer Vision and Natural Language Processing (NLP) has provided me with the opportunity to work with related software & hardware and to understand the key role of innovations in solving the prevalent societal issues. I have also gained valuable experience in working with technical teams and have often donned the leadership mantle. Please click here to learn more about my skills.<a href="#services" class="btn">My Skills</a></p>
+                <p>I'm an international student on a F-1 (OPT) visa and I have a short period of time to find employment. In light of the recent pandemic situation, my job search has proven to be difficult and I find myself running short on time.</p>
+                <p> Therefore, if any recruiter or fellow engineers out there are reading this, I would really appericiate any guidance or help of any sort. Please click here for my resume. <a href="https://drive.google.com/file/d/1Ikq9WBHmaePWSsS1PrTbXDMF_Z8J3lHD/view?usp=sharing" class="btn">RESUME</a> </p>
+            </div>
+            
+            <img src="img/full_photo_488x812.jpg" alt="Jane leaning against a bus" class="about-me__img">
+         </section>
+
+
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">My Skills</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Machine Learning</h3>
+                    <p>I have been interested in Machine Learning ever since my undergraduate studies. I started out in ML by
+                        working on small scale projects on my own and then went on to work in Machine Learning Research Labs at Arizona State University. I also have two Data Science Internships.Please view my resume for more details. <a href="https://drive.google.com/file/d/1Ikq9WBHmaePWSsS1PrTbXDMF_Z8J3lHD/view?usp=sharing" class="btn">RESUME</a> </p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Natural Language Processing (NLP)</h3>
+                    <p>I carried out my NLP research at ASU where I worked on my first research publication. <a href="https://www.researchgate.net/publication/332082181_Exploiting_Emojis_for_Sarcasm_Detection" class="btn">RESEARCH PAPER - "Exploiting Emojis for Sarcasm Detection"</a></p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Computer Vision</h3>
+                    <p>I worked for a Computer Vision startup where I had the opportunity to work with real-
+                        time object detection models such as YOLO and SSD. The aim of the project was to detect traffic                
+                        intensity throughout a city by applying computer vision techniques on Drone Images / CCTV images.</p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+            
+            <!-- <a href="#work" class="btn">My Work</a> -->
+            <p>My other skills include - <h4>Python, Keras, Tensorflow, C, C++, Java, SQL, Django, Flask, MATLAB, scikit-learn, Apache Spark, Hadoop, ROS</h4></p>
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer>
+            <!-- replace with your own email address -->
+            <a href="mailto:vsridh19@asu.edu" class="footer__link">Email - vsridh19@asu.edu</a>
+            <ul class="social-list">
+                <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/varun-sridharan/">LinkedIn</a></li>
+                <li class="social-list__item"><a class="social-list__link" href="https://github.com/vsridh">Github</a></li>
+            </ul>
+        </footer>
+        
+    </body>
+</html>
